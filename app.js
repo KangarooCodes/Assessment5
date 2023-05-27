@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json())
 
   // GET ROUTE
-app.get('/', async (req, res, next) => {
+app.post('/', async (req, res, next) => {
 
   try {
     // Await and Lump all Promises of data for requested devs
